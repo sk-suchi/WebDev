@@ -1,0 +1,28 @@
+nav li a{
+text-decoration: none;
+color: rgb(226, 43, 86);
+}
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+nav li a:hover{
+    background-color: rgb(185, 242, 12);
+}
+footer{
+    text-align: center;
+}
+img{
+    margin: auto;
+    display: block;
+    width: 50%;
+}
+figcaption{
+    text-align: center;
+}
+.container {
+    padding: 25px;
+    
+    background-color: aquamarine;
+}
