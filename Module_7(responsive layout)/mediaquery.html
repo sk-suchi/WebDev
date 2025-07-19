@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        display: flex;
+        flex-direction: row;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .food {
+        border: 2px solid rgb(172, 250, 172);
+        margin: 10px;
+       
+        width: 350px;
+    }
+
+    .food img {
+        width: 100%;
+    }
+
+    @media (max-width:500px) { /*if website width is less than 500px then it'll apply*/
+        .container {
+            flex-direction: column;
+        }
+
+        .container .food {
+            background-color: rgb(153, 222, 153);
+        }
+
+    }
+
+    @media (min-width:1000px) {
+        .container .food {
+            background-color: skyblue;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="food"><img src="Images/berry.webp" alt=""><br> Lorem ipsum dolor sit amet, consectetur adipisicing t.
+            Dolorem eos velit aliquid explicabo, reiciendis commodi architecto nemo quidem cumque dolorum..</div>
+
+        <div class="food"><img src="Images/berry.webp" alt=""><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Voldelectus porro eos reiciendis voluptatem dignissimos eum pariatur libero itaque quam! Facilis fugit esse
+            sunt!</div>
+
+        <div class="food"><img src="Images/berry.webp" alt=""><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Laudare soluta, quas aut aspernatur? Laboriosam nisi laborum rem quae mollitia necessitatibus!</div>
+
+        <div class="food"><img src="Images/berry.webp" alt=""><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Quae alias, provident paiure iusto saepe!</div>
+
+        <div class="food"><img src="Images/berry.webp" alt=""><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Dignisdent dignissimos, minus facilis magni alias temporibus, quas enimus ratione aliquid. Tempora
+            laboriosam ex non maxime nihil.</div>
+
+        <div class="food"><img src="Images/berry.webp" alt=""><br>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Soluta eaque deleniti earum, error eum nulla minima laboriosam aliquid eligenis excepturi ullam, cum officia
+            deleniti?</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .nav a {
+            text-decoration: none;
+            margin:0 30px;
+
+        }
+/*.left{
+    display: flex;
+    gap: 20px;
+}*/
+        .container {
+            border: 4px solid red;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login {
+            border: 2px solid blue;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 50%;
+        }
+
+        .login input {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="left">
+            <a href="">Home</a>
+            <a href="">Profile</a>
+            <a href="">Blog</a>
+        </div>
+        <a href="">Login</a>
+    </div>
+
+    <div class="container">
+        <h3>Please Login</h3>
+        <form action="" class="login">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="submit" placeholder="Login">
+        </form>
+
+    </div>
+</body>
+
+</html>

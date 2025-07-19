@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box img {
+            height: 8%;
+            width: 8%;
+        }
+
+        .box {
+            position: relative;
+                display: flex;
+    justify-content: center;
+        }
+
+        .bun {
+            z-index: 15;
+
+        }
+
+        .tomato {
+            z-index: 10;
+            top: -100px;
+        }
+
+        .patty {
+            z-index: 5;
+            top: -170px;
+        }
+        .bread{
+            top:-250px;
+            position: relative;
+  transform: rotate(180deg);
+        }
+    </style>
+</head>
+
+<body>
+    <h3>CSS Positions</h3>
+    <ul>
+        <!--flow related-->
+        <li>static</li>
+        <li>relative</li>
+        <li>absolute</li>
+        <!--scroll related-->
+        <li>fixed</li>
+        <li>sticky</li>
+    </ul>
+    <div class="box bun">
+        <img src="svg images/bread-bun-svgrepo-com.svg">
+    </div>
+    <div class="box tomato">
+        <img src="svg images/tomato-svgrepo-com.svg">
+    </div>
+    <div class="box patty">
+        <img src="svg images/protein-meat-svgrepo-com.svg">
+    </div>
+    <div class="box bread">
+        <img src="svg images/bread-svgrepo-com.svg">
+    </div>
+    <script>
+        alert("Welcome to Burgir")
+    </script>
+</body>
+
+</html>
