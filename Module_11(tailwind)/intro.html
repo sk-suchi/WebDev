@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="m-8">
+    <h1 class="text-6xl underline">Introduction to TailwindCSS</h1><br>
+    <h3 class="text-3xl m-4"> Exploring utility classes</h3>
+    <p class="m-4">This is exciting</p>
+    <p class="bg-rose-400 m-4"> 
+        Color palette 1
+    </p>
+     <p class="bg-violet-300 m-4"> 
+        Color palette 1
+    </p>
+    <button class="rounded-full m-4 p-4 bg-linear-to-r/increasing from-indigo-500 to-teal-400">Explore Tailwind</button>
+    <section class="m-4 p-8 text-center border-4 border-indigo-200 border-x-indigo-500">
+        <h3 class="text-3xl">title</h3>
+        <p class="text-red">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem laborum sunt animi blanditiis cumque libero porro laudantium, voluptatem autem, quaerat nulla necessitatibus, aliquid quos? Quae possimus libero eos iusto perspiciatis!</p>
+    </section>
+    <section class="m-4 bg-red-300 md:bg-amber-500 lg:bg-emerald-500 p-8 border-3 border-violet-900">
+        <h3 class="text-3xl">Responsive section</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ex cupiditate accusamus ad praesentium reiciendis quo consequatur, beatae corrupti? Illo eum, fugiat rerum suscipit facilis iure quam adipisci sint officia.</p>
+    </section>
+    <section class="m-4 border-4 border-pink-700 flex p-1 justify-evenly">
+        <div class="border-2 border-indigo-800 w-90 h-30 text-3xl">Box 1</div>
+        <div class="border-2 border-indigo-800 w-90 h-30 text-3xl">Box 2</div>
+        <div class="border-2 border-indigo-800 w-90 h-30 text-3xl">Box 3</div>
+    </section>
+
+    <section class="m-8 p-8 grid grid-cols-4 gap-4 text-center">
+        <div class="bg-pink-300 text-2xl rounded-lg">box 1</div>
+        <div class="bg-pink-300 text-2xl rounded-lg">box 2</div>
+        <div class="bg-pink-300 text-2xl rounded-lg">box 3</div>
+        <div class="bg-pink-300 text-2xl rounded-lg">box 4</div>
+        <div class="bg-pink-300 text-2xl rounded-lg">box 5</div>
+        <div class="bg-pink-300 text-2xl rounded-lg">box 6</div>
+        <div class="bg-pink-300 text-2xl rounded-lg">box 7</div>
+        <div class="bg-pink-300 text-2xl rounded-lg">box 8</div>
+        <div class="bg-pink-300 text-2xl rounded-lg">box 9</div>
+        <div class="bg-pink-300 text-2xl rounded-lg">box 10</div>
+        <div class="bg-pink-300 text-2xl rounded-lg">box 11</div>
+        <div class="bg-pink-300 text-2xl rounded-lg">box 12</div>
+    </section>
+
+    <section class="card">
+        <div class="flex justify-evenly">
+            <div class="w-80 border-3 border-b-cyan-950 rounded-2xl p-3 ">
+               <img src="Samsung-Galaxy.webp" alt="" class="rounded-lg m-2">
+                <h3 class="text-2xl m-2">Samsung Watch</h3>
+                <p class="m-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam voluptatem esse ab consectetur accusantium! Earum odit est pariatur. Sed, reiciendis!</p>
+                <button class="rounded-full p-3 m-2 bg-linear-65 from-purple-500 to-pink-500">Buy Now</button>
+            </div>
+
+              <div class="w-80 border-3 border-b-cyan-950 rounded-2xl p-3 ">
+               <img src="Samsung-Galaxy.webp" alt="" class="rounded-lg m-2">
+                <h3 class="text-2xl m-2">Samsung Watch</h3>
+                <p class="m-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam voluptatem esse ab consectetur accusantium! Earum odit est pariatur. Sed, reiciendis!</p>
+                <button class="rounded-full p-3 m-2 bg-linear-65 from-purple-500 to-pink-500">Buy Now</button>
+            </div>
+
+              <div class="w-80 border-3 border-b-cyan-950 rounded-2xl p-3 ">
+               <img src="Samsung-Galaxy.webp" alt="" class="rounded-lg m-2">
+                <h3 class="text-2xl m-2">Samsung Watch</h3>
+                <p class="m-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam voluptatem esse ab consectetur accusantium! Earum odit est pariatur. Sed, reiciendis!</p>
+                <button class="rounded-full p-3 m-2 bg-linear-65 from-purple-500 to-pink-500">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="custom m-4">
+        <p class="text-[31px]"> Adding custom font size</p>
+    </div>
+</body>
+</html>
